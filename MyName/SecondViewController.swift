@@ -35,7 +35,6 @@ class SecondViewController: UIViewController {
     
     @IBAction func goBack(_ sender: UIButton) {
         dismiss(animated: true, completion: nil)
-        print("Back button was pressed")
     }
     
     override func viewDidLoad() {
